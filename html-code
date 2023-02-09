@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignmetn for module 3</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>	
+<body>
+
+	<span id="top"></span>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Food,LLC</h1></a>
+					</div>
+
+					 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+					    <span class="sr-only">Toggle navigation</span>
+					    <span class="icon-bar"></span>
+					    <span class="icon-bar"></span>
+					    <span class="icon-bar"></span>
+				    </button>
+			    </div>
+
+			    <div id="collapsable-nav" class="collapse navbar-collapse">
+			    	<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+			    		 <li>
+						    <a href="#">
+							    <span class="glyphicon glyphicon-cutlery"></span><br> Chicken</a>	
+					    </li>
+					    <li>
+						    <a href="#">
+							    <span class="glyphicon glyphicon-info-sign"></span><br> Beef</a>
+					    </li>
+					    <li>
+						    <a href="#">
+							    <span class="glyphicon glyphicon-certificate"></span><br> Sushi</a>
+					    </li>
+			     	</ul>
+			    </div>
+			</div>
+		</nav>
+	</header>
+
+	<div class="row">
+		<h1 id="main">Our Menu</h1>
+		<div class="col-md-4 col-sm-6 col-xs-12">
+		<div id="chicken">
+			<h2 class="c">Chicken</h2>
+		    <br>
+		    <br>
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus a dolor eu mattis. Nullam non elit justo. Duis porttitor condimentum arcu, vestibulum finibus lorem mattis quis. Sed dictum, purus id tempor semper, nisi massa lacinia odio, quis blandit nisl velit vel lorem. Mauris dignissim nulla id pulvinar pellentesque. Nunc consequat faucibus nunc in consectetur. Ut vel lectus vitae felis varius mollis ac vel enim. Morbi ut porttitor lacus. Vivamus sed enim rutrum urna fermentum efficitur nec sed est. Fusce nec augue justo. Curabitur congue purus nec dui cursus, vitae ullamcorper felis rutrum. Nullam gravida leo erat, sit amet molestie orci imperdiet at. Pellentesque auctor fermentum lorem. Ut euismod eros ut metus gravida hendrerit.Vivamus interdum sagittis lacus nec sagittis. Vivamus consectetur leo nec urna vehicula, sed suscipit mauris rhoncus. Morbi posuere nibh ac pharetra tincidunt. Morbi posuere turpis neque, et fermentum arcu pellentesque a. In hac habitasse platea dictumst. Duis vitae ligula nulla. Vivamus placerat leo sit amet odio dignissim placerat. Nunc vitae pulvinar ipsum. Aenean ac sapien ante. Quisque sit amet odio eu libero lobortis placerat at nec tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut magna elit, pellentesque quis risus id, molestie congue dui. Aenean sodales, ligula sit amet suscipit tempus, felis justo aliquam lorem, eget pharetra mi ligula id ipsum. Fusce interdum quam rutrum urna tempor porta ut a metus. In nec tempor leo. Donec fringilla dapibus mi. Quisque ut mauris viverra arcu pretium sagittis. Mauris placerat cursus sapien nec pellentesque.</p>
+		    <span>End Of Chicken Section</span>
+		    <a href="#top">Back to top</a>
+		</div>
+	</div>
+
+	<div class="col-md-4 col-sm-6 col-xs-12">
+		<div id="beef">
+			<h2 class="b">Beef</h2>
+		    <br>
+		    <br>
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus a dolor eu mattis. Nullam non elit justo. Duis porttitor condimentum arcu, vestibulum finibus lorem mattis quis. Sed dictum, purus id tempor semper, nisi massa lacinia odio, quis blandit nisl velit vel lorem. Mauris dignissim nulla id pulvinar pellentesque. Nunc consequat faucibus nunc in consectetur. Ut vel lectus vitae felis varius mollis ac vel enim. Morbi ut porttitor lacus. Vivamus sed enim rutrum urna fermentum efficitur nec sed est. Fusce nec augue justo. Curabitur congue purus nec dui cursus, vitae ullamcorper felis rutrum. Nullam gravida leo erat, sit amet molestie orci imperdiet at. Pellentesque auctor fermentum lorem. Ut euismod eros ut metus gravida hendrerit.Vivamus interdum sagittis lacus nec sagittis. Vivamus consectetur leo nec urna vehicula, sed suscipit mauris rhoncus. Morbi posuere nibh ac pharetra tincidunt. Morbi posuere turpis neque, et fermentum arcu pellentesque a. In hac habitasse platea dictumst. Duis vitae ligula nulla. Vivamus placerat leo sit amet odio dignissim placerat. Nunc vitae pulvinar ipsum. Aenean ac sapien ante. Quisque sit amet odio eu libero lobortis placerat at nec tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut magna elit, pellentesque quis risus id, molestie congue dui. Aenean sodales, ligula sit amet suscipit tempus, felis justo aliquam lorem, eget pharetra mi ligula id ipsum. Fusce interdum quam rutrum urna tempor porta ut a metus. In nec tempor leo. Donec fringilla dapibus mi. Quisque ut mauris viverra arcu pretium sagittis. Mauris placerat cursus sapien nec pellentesque.</p>
+		    <span>End Of Beef Section</span>
+		    <a href="#top">Back to top</a>
+		</div>
+	</div>
+
+	<div class="col-md-4 col-sm-12 col-xs-12">
+		<div id="sushi">
+			<h2 class="s">Sushi</h2>
+		    <br>
+		    <br>
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus a dolor eu mattis. Nullam non elit justo. Duis porttitor condimentum arcu, vestibulum finibus lorem mattis quis. Sed dictum, purus id tempor semper, nisi massa lacinia odio, quis blandit nisl velit vel lorem. Mauris dignissim nulla id pulvinar pellentesque. Nunc consequat faucibus nunc in consectetur. Ut vel lectus vitae felis varius mollis ac vel enim. Morbi ut porttitor lacus. Vivamus sed enim rutrum urna fermentum efficitur nec sed est. Fusce nec augue justo. Curabitur congue purus nec dui cursus, vitae ullamcorper felis rutrum. Nullam gravida leo erat, sit amet molestie orci imperdiet at. Pellentesque auctor fermentum lorem. Ut euismod eros ut metus gravida hendrerit.Vivamus interdum sagittis lacus nec sagittis. Vivamus consectetur leo nec urna vehicula, sed suscipit mauris rhoncus. Morbi posuere nibh ac pharetra tincidunt. Morbi posuere turpis neque, et fermentum arcu pellentesque a. In hac habitasse platea dictumst. Duis vitae ligula nulla. Vivamus placerat leo sit amet odio dignissim placerat. Nunc vitae pulvinar ipsum. Aenean ac sapien ante. Quisque sit amet odio eu libero lobortis placerat at nec tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut magna elit, pellentesque quis risus id, molestie congue dui. Aenean sodales, ligula sit amet suscipit tempus, felis justo aliquam lorem, eget pharetra mi ligula id ipsum. Fusce interdum quam rutrum urna tempor porta ut a metus. In nec tempor leo. Donec fringilla dapibus mi. Quisque ut mauris viverra arcu pretium sagittis. Mauris placerat cursus sapien nec pellentesque.</p>
+		    <span>End of Sushi Section</span>
+		    <a href="#top">Back to top</a>
+		</div>
+	</div>
+	</div>
+	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
